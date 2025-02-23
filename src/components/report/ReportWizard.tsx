@@ -1,5 +1,6 @@
 "use client"
 import { useState } from "react";
+import { ReportForm } from "./ReportForm";
 
 export default function ReportWizard() {
     const [currentStep, setCurrentStep] = useState(1);
@@ -11,8 +12,13 @@ export default function ReportWizard() {
       if (currentStep === 4) {
         return;
       }
-  
+
       setCurrentStep((prev) => prev + 1);
     };
+    return (
+      <div className="rounded-2xl bg-zinc-900 p-8">
+      {currentStep === 1 && <ReportForm onComplete={handleStepComplete} />}
+    </div>
+    )
 
 }
