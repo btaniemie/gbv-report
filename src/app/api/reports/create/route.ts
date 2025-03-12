@@ -13,7 +13,7 @@ export async function POST(request: Request) {
             description,
             location,
             latitude,
-            longtitude,
+            longitude,
             image,
             status,
         } = await request.json();
@@ -27,7 +27,7 @@ export async function POST(request: Request) {
                 description,
                 location,
                 latitude: latitude || null,
-                longtitude: longtitude || null,
+                longitude: longitude || null,
                 image: image || null,
                 status: status || "PENDING",
             }

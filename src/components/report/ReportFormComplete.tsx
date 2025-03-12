@@ -11,9 +11,9 @@ export function ReportSubmitted({ data }: ReportSubmittedProps) {
   return (
     <div className="text-center space-y-6">
       <div className="flex flex-col items-center">
-        <div className="bg-green-500/10 rounded-full p-3">
+        <div className="bg-purple-500/10 rounded-full p-3">
           <svg
-            className="w-16 h-16 text-green-500"
+            className="w-16 h-16 text-purple-500"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -37,10 +37,10 @@ export function ReportSubmitted({ data }: ReportSubmittedProps) {
       <div className="bg-zinc-800/50 rounded-lg p-6 max-w-md mx-auto">
         <h4 className="text-white font-medium mb-2">Your Report ID</h4>
         <div className="bg-zinc-900 rounded p-3">
-          <code className="text-sky-400">{reportId}</code>
+          <code className="text-purple-400">{reportId}</code>
         </div>
         <p className="mt-2 text-sm text-zinc-400">
-          Save this ID to check your report status or communicate securely with us
+          Save this ID to track your report status 
         </p>
       </div>
 
