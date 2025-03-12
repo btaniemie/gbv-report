@@ -84,14 +84,14 @@ export function LocationInput({
             placeholder="Enter location or use pin"
             className="w-full rounded-xl bg-zinc-900/50 border border-zinc-800 pl-4 pr-12 py-3.5
                      text-white transition-colors duration-200
-                     focus:outline-none focus:ring-2 focus:ring-sky-500/40"
+                     focus:outline-none focus:ring-2 focus:ring-purple-500/40"
           />
         </AddressAutofill>
         <button
           type="button"
           onClick={getLocation}
           className="absolute right-3 top-1/2 -translate-y-1/2 p-1.5
-                   rounded-lg bg-sky-500/10 text-sky-400 
+                   rounded-lg bg-sky-500/10 text-purple-400 
                    hover:bg-sky-500/20 transition-colors duration-200
                    disabled:opacity-50 disabled:cursor-not-allowed"
           disabled={isGettingLocation}

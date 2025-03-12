@@ -17,7 +17,7 @@ export default function Submit() {
                   </span>
               </h1>
               <p className="mt-8 text-white text-center text-xl">
-              Report gender-based violence securely and anonymously. Your safety comes first—submit an immediate report, and our team will handle it with urgency and confidentiality.
+              Report gender-based violence securely and anonymously. Your safety comes first: submit an immediate report, and we will handle it with urgency and confidentiality.
             </p>
             </div>
 
