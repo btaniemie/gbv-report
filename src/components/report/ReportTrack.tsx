@@ -54,9 +54,9 @@ export function ReportTracker() {
       {/* Header Section */}
       <div className="text-center mb-8">
         <h1 className="mt-8 bg-gradient-to-b from-white to-white/80 bg-clip-text text-6xl font-bold tracking-tight text-transparent sm:text-5xl">
-            Track Your Report
+            Track your report
             <span className="mt-4 block bg-gradient-to-r from-purple-200 to-purple-500 bg-clip-text text-transparent">
-            View Most Updated Status
+            View up-to-date status
             </span>
         </h1>
        
