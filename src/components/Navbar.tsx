@@ -41,6 +41,11 @@ export default function Navbar() {
               >
                 Learn more about GBV
               </Link>
+              <Link href={"/auth/signin"}>
+                <button className="flex h-12 items-center justify-center gap-2 rounded-xl bg-purple-950 px-8 text-sm font-medium text-white ring-1 ring-inset ring-white/10 transition-all hover:bg-white/10">
+                    Admin dashboard
+                </button>
+                </Link>
             </div>        
           </div>
         </div>
